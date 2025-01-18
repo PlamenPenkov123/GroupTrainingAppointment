@@ -13,12 +13,16 @@ namespace GroupTrainingAppointment.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Home()
+        {
+            return View();
+        }
+        public IActionResult Trainers() 
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Appointment()
         {
             return View();
         }
