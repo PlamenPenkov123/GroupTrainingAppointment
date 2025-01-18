@@ -1,5 +1,5 @@
 using System.Diagnostics;
-using GroupTrainingAppointment.Models;
+using GroupTrainingAppointment.Utilities.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GroupTrainingAppointment.Controllers

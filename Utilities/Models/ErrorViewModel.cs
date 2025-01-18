@@ -1,4 +1,4 @@
-namespace GroupTrainingAppointment.Models
+namespace GroupTrainingAppointment.Utilities.Models
 {
     public class ErrorViewModel
     {
