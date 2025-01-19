@@ -9,5 +9,10 @@ namespace GroupTrainingAppointment
         public DbSet<Trainer> Trainers { get; set; }
         public DbSet<Group> Groups { get; set; }
         public DbSet<GroupParticipant> GroupParticipants { get; set; }
+
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
+
+        }
     }
 }
