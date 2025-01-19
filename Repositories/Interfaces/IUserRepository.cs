@@ -6,7 +6,6 @@ namespace GroupTrainingAppointment.Repositories.Interfaces
     {
         IEnumerable<User> GetUsers();
         void AddUser(User user);
-        void UpdateUser(string email);
         void DeleteUser(string email);
     }
 }

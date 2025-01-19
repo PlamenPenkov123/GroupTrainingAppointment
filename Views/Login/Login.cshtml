@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="form-signin text-center w-100 m-auto">
+    <form class="col-4 m-auto">
+        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+        <div class="form-floating py-1">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating py-1">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+
+        <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+        
+    </form>
+    <div class="col-4 py-2 m-auto">
+        <a asp-area="" asp-controller="Login" asp-action="Register">
+            <button class="btn btn-secondary w-100 py-2" type="submit">
+                Register
+            </button>
+        </a>
+    </div>
+</div>
+

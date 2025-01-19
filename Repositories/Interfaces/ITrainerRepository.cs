@@ -5,8 +5,8 @@ namespace GroupTrainingAppointment.Repositories.Interfaces
     public interface ITrainerRepository
     {
         IEnumerable<Trainer> GetAllTrainers();
+        Trainer GetTrainerByEmail(string email);
         void AddTrainer(Trainer trainer);
-        void UpdateTrainer(string email);
         void RemoveTrainer(string email);
     }
 }

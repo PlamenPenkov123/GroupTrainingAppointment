@@ -22,11 +22,6 @@ namespace GroupTrainingAppointment.Repositories
             _context.Users.Add(user);
             _context.SaveChanges();
         }
-        
-        public void UpdateUser(string email)
-        {
-            throw new NotImplementedException();    
-        }
 
         public void DeleteUser(string email)
         {

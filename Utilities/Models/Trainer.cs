@@ -14,5 +14,9 @@ namespace GroupTrainingAppointment.Utilities.Models
         [Required]
         [MaxLength(100)]
         public string lastName { get; set; }
+
+        [Required]
+        [MaxLength(100)]
+        public string email { get; set; }
     }
 }

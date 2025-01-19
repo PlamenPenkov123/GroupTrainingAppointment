@@ -14,5 +14,8 @@ namespace GroupTrainingAppointment.Utilities.Models
 
         [Required]
         public WorkoutType workoutType { get; set; }
+
+        [Required]
+        public DateTime dateTime { get; set; }
     }
 }
